@@ -18,6 +18,8 @@ def calculate(a, b, operation):
         return a // b
     elif operation == 'minimum':
         return min(a, b)
+    elif operation == 'maximum':
+        return max(a, b)
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
