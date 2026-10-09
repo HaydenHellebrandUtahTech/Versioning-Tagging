@@ -12,6 +12,10 @@ def calculate(a, b, operation):
         if b == 0:
             return "Error: Cannot divide by zero"
         return a % b
+    elif operation == 'floor_divide':
+        if b == 0:
+            return "Error: Cannot divide by zero"
+        return a // b
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
