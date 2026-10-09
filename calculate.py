@@ -8,6 +8,10 @@ def calculate(a, b, operation):
         return a * b
     elif operation == 'power':
         return a ** b
+    elif operation == 'modulo':
+        if b == 0:
+            return "Error: Cannot divide by zero"
+        return a % b
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
