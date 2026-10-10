@@ -24,6 +24,8 @@ def calculate(a, b, operation):
         return abs(a)
     elif operation == 'average':
         return (a + b) / 2
+    elif operation == 'square':
+        return a ** 2
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
