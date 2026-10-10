@@ -1,5 +1,5 @@
 
-def calculate(a, b, operation):
+def calculator(a, b, operation):
     if operation == 'add':
         return a + b
     elif operation == 'subtract':
@@ -35,9 +35,9 @@ def calculate(a, b, operation):
 
 
 if __name__ == "__main__":
-    print(calculate(5, 3, 'add'))
-    print(calculate(5, 3, 'subtract'))
-    print(calculate(5, 3, 'multiply'))
-    print(calculate(5, 3, 'divide'))
-    print(calculate(5, 0, 'divide'))
-    print(calculate(2, 3, 'power'))
+    print(calculator(5, 3, 'add'))
+    print(calculator(5, 3, 'subtract'))
+    print(calculator(5, 3, 'multiply'))
+    print(calculator(5, 3, 'divide'))
+    print(calculator(5, 0, 'divide'))
+    print(calculator(2, 3, 'power'))
