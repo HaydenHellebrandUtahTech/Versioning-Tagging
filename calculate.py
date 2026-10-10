@@ -28,6 +28,10 @@ def calculator(a, b, operation):
         return a ** 2
     elif operation == 'cube':
         return a ** 3
+    elif operation == 'square_root':
+        if a < 0:
+            return "Error: Cannot take square root of a negative number"
+        return a ** 0.5
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
