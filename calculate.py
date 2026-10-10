@@ -26,6 +26,8 @@ def calculator(a, b, operation):
         return (a + b) / 2
     elif operation == 'square':
         return a ** 2
+    elif operation == 'cube':
+        return a ** 3
     elif operation == 'divide':
         if b == 0:
             return "Error: Cannot divide by zero"
